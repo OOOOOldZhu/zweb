@@ -21,7 +21,7 @@ public class SubmitServlet extends HttpServlet {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-//  构造方法-> init( )
+	//  构造方法-> init( )
 	// service() serlet创建之后缓存起来，不会立即销毁,doGet doPost在service()之后进行
 	// destroy() 服务器关闭，就会销毁
 	public void init(){
@@ -30,11 +30,11 @@ public class SubmitServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
 	 *      response)
-	 */
+	 doGet*/
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.print("........shibai");
+		//System.out.print("........shibai");
 		response.setContentType("text/html;charset=UTF-8");
 		String requestName="1";
 		String requestPassword="1";
